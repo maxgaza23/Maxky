@@ -17,24 +17,24 @@ cl = LINE()
 cl.log("Auth Token : " + str(cl.authToken))
 cl.log("Timeline Token : " + str(cl.tl.channelAccessToken))
 
-ki = LINE()
-ki.log("Auth Token : " + str(ki.authToken))
-ki.log("Timeline Token : " + str(ki.tl.channelAccessToken))
+#ki = LINE()
+#ki.log("Auth Token : " + str(ki.authToken))
+#ki.log("Timeline Token : " + str(ki.tl.channelAccessToken))
 
-kk = LINE()
-kk.log("Auth Token : " + str(kk.authToken))
-kk.log("Timeline Token : " + str(kk.tl.channelAccessToken))
+#kk = LINE()
+#kk.log("Auth Token : " + str(kk.authToken))
+#kk.log("Timeline Token : " + str(kk.tl.channelAccessToken))
 
-kc = LINE()
-kc.log("Auth Token : " + str(kc.authToken))
-kc.log("Timeline Token : " + str(kc.tl.channelAccessToken))
+#kc = LINE()
+#kc.log("Auth Token : " + str(kc.authToken))
+#kc.log("Timeline Token : " + str(kc.tl.channelAccessToken))
 
-ks = LINE()
-ks.log("Auth Token : " + str(ks.authToken))
-ks.log("Timeline Token : " + str(ks.tl.channelAccessToken))
+#ks = LINE()
+#ks.log("Auth Token : " + str(ks.authToken))
+#ks.log("Timeline Token : " + str(ks.tl.channelAccessToken))
 
 helpMessage ="""╔═══════════════╗
-         ✰ɢʜᴏsᴛ ᴛᴇᴀᴍ✰
+☢ ŦΣÄM ƉØÑØVÄÑ ☢
 ╚═══════════════╝
 ═════════════════
  ◄]·♦·Menu For Public·♦·[►
@@ -61,20 +61,20 @@ helpMessage ="""╔═══════════════╗
 ╠ Banlist
 ╚════════════════
 ╔═══════════════╗
-         ✰ɢʜᴏsᴛ ᴛᴇᴀᴍ✰
+☢ ŦΣÄM ƉØÑØVÄÑ ☢
 ╚═══════════════╝"""
 
 oepoll = OEPoll(cl)
-KAC=[cl,ki,kk,kc,ks]
+KAC=[cl]
 mid = cl.getProfile().mid
-Amid = ki.getProfile().mid
-Bmid = kk.getProfile().mid
-Cmid = kc.getProfile().mid
-Dmid = ks.getProfile().mid
+#Amid = ki.getProfile().mid
+#Bmid = kk.getProfile().mid
+#Cmid = kc.getProfile().mid
+#Dmid = ks.getProfile().mid
 
-Bots=[mid,Amid,Bmid,Cmid,Dmid]
-admin=["ub41f826c5d81c8ead447ee84c43857b1"] 
-owner=["ub41f826c5d81c8ead447ee84c43857b1"]
+Bots=[mid]
+admin=["u283825ccd9c7b996bbe31c312a80489c"] 
+owner=["u283825ccd9c7b996bbe31c312a80489c"]
 whitelist=[""]
 wait = {
     'contact':False,
@@ -84,7 +84,7 @@ wait = {
     'timeline':True,
     'autoAdd':True,
     'message':"""╔════════════╗
-     ✰ɢʜᴏsᴛ ᴛᴇᴀᴍ✰
+    ☢ ŦΣÄM ƉØÑØVÄÑ ☢
 ╚════════════╝
 ══════════════
  ◄]·♦·Open Sewa·♦·[►
@@ -92,9 +92,10 @@ wait = {
 ╠ VPS
 ╠ SelfBot
 ╠ Bot Protect
+╠ By.MaxGie
 ╚═════════════
 Minat?
-http://line.me/ti/p/~iiipuuul""",
+http://line.me/ti/p/~2000m.""",
     "lang":"JP",
     "comment":"Thanks for add me",
     "commentOn":False,
@@ -102,17 +103,17 @@ http://line.me/ti/p/~iiipuuul""",
     "wblack":False,
     "dblack":False,
     "clock":False,
-    "cName":"✰ɢʜᴏsᴛ ᴛᴇᴀᴍ✰",
-    "cName2":"✰ɢʜᴏsᴛ ᴛᴇᴀᴍ✰ ",
-    "cName3":"✰ɢʜᴏsᴛ ᴛᴇᴀᴍ✰ ",
-    "cName4":"✰ɢʜᴏsᴛ ᴛᴇᴀᴍ✰ ",
-    "cName5":"✰ɢʜᴏsᴛ ᴛᴇᴀᴍ✰ ",
+    "cName":"",
+    "cName2":"",
+    "cName3":"",
+    "cName4":"",
+    "cName5":"",
     "blacklist":{},
     "wblacklist":False,
     "dblacklist":False,
-    "Protectgr":True,
-    "Protectcancl":True,
-    "protectionOn":True,
+    "Protectgr":False,
+    "Protectcancl":False,
+    "protectionOn":False,
     "atjointicket":True
     }
 
@@ -969,7 +970,7 @@ def bot(op):
                 if wait["autoAdd"] == True: md+="[•]Auto Add [On]\n"
                 else:md+="[•]Auto Add [Off]\n"
                 if wait["commentOn"] == True: md+="[•]Comment [On]\n"
-                else:md+="[•]Comment [Off]\n*============*\n✰ɢʜᴏsᴛ ᴛᴇᴀᴍ✰⭐\n*============*"
+                else:md+="[•]Comment [Off]\n*============*\n☢ ŦΣÄM ƉØÑØVÄÑ ☢\n*============*"
                 cl.sendText(msg.to,md)
             elif "album merit " in msg.text:
                 gid = msg.text.replace("album merit ","")
