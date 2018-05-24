@@ -12,6 +12,6 @@
 - pip3 install thrift==0.9.3
 - pip3 install requests
 - cd ProtectPy3
-- python3 5bot.py
+- python3 Max.py
 -
 - By MaxGie IDline. 2000m.
