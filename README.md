@@ -1,4 +1,4 @@
-# ProtectPy3
+# Maxky
 
 ╱─▾─╲▸☮◂╱─▾─╲
 ★тєᴀмвотѕρεεdтнᴀı★
@@ -11,7 +11,7 @@
 - pip3 install rsa
 - pip3 install thrift==0.9.3
 - pip3 install requests
-- cd ProtectPy3
+- cd Maxky
 - python3 Max.py
 -
 - By MaxGie IDline. 2000m.
